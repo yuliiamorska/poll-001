@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ukr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>опитування</title>
+</head>
+<body>
+    style="background-color: antiquewhite">
+   <header>
+       <h1>Соціологічне опитування:"Чи хотіли б Ви жити закордоном?"</h1>
+    </header><br>
+    <article>
+      <h2>Дайте відповідь на питання:<h2>
+       <form method="post" action="form.php">
+        <label>П.І.П.
+            <input type="text">
+        </label>
+    </form><br>
+    <form method="post" action="form.php">
+        <label>Вік:
+            <input type="number">
+        </label>
+    </form><br>
+    <form method="post" action="form.php">
+        <label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other
+        </label>
+    </form><br>
+    <form method="post" action="form.php">
+        <label>Чи бували Ви закордоном?
+            <input type="radio" name="answer" value="yes">Так
+            <input type="radio" name="answer" value="no">Ні
+        </label>
+    </form><br>
+    <form method="post" action="form.php">
+        <label>Якщо так, то де саме?
+            <input type="text">
+        </label>
+    </form><br>
+    <form method="post" action="form.php">
+        <label>Чи важливий для Вас клімат?
+            <input type="text">
+        </label>
+    </form><br>
+    <form method="post" action="form.php">
+        <label>Чи влаштовує Вас життя в Україні?
+            <input type="text">
+        </label>
+    </form><br>
+    <form method="post" action="form.php">
+        <label>Чи замислювались Ви над роботою та життям закордоном?
+            <input type="text">
+        </label>
+    </form><br>
+    <form method="post" action="form.php">
+        <fieldset>
+            <p>Чим Ви займаєтесь зараз?
+            <select>
+                <option value="s">Студент</option>
+                <option value="e">Працівник</option>
+                <option value="b">Бізнесмен</option>
+                <option value="un">Безробітній</option>
+            </select>
+            </p>
+        </fieldset>
+        </form><br>
+        <form method="post" action="form.php">
+        <textarea name="textarea"  cols="30" rows="10" placeholder="Напишіть Вашу думку про рівень життя в Україні."></textarea>
+        </form>
+        <form method="post" action="https://formspree.io/ymorska56@gmail.com">
+            <input type="submit" name="submit">
+        </form>
+        <hr>
+    </article>
+    <a href="forms.html">Forms</a>
+</body>
+</html>
